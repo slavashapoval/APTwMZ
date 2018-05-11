@@ -11,15 +11,17 @@ namespace ConsoleApplication1
         {
             decimal money, percent;
             int i;
-            const byte years = 5;
+            const byte years = 4;
 
-            money = 5000.0m;
-            percent = 0.15m;
+            money = 7000.0m;
+            percent = 0.10m;
 
             for (i = 1; i <= years; i++)
             {
                 money *= 1 + percent;
             }
+            Console.WriteLine("Procent = {0}%", percent*100);
+
 
             Console.WriteLine("Całkowite przychody za {0} lat: {1} $$", years, money);
             Console.ReadLine();
