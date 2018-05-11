@@ -13,8 +13,8 @@ namespace ConsoleApplication1
             int i;
             const byte years = 4;
 
-            money = 7000.0m;
-            percent = 0.10m;
+            money = 5000.0m;
+            percent = 0.15m;
 
             for (i = 1; i <= years; i++)
             {
